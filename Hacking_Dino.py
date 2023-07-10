@@ -1,0 +1,43 @@
+import pyautogui
+import time
+
+a=int(input("Input how much multiply speed. "))
+time.sleep(5)
+pyautogui.press('f12')
+pyautogui.moveTo(1531,147)
+pyautogui.click()
+pyautogui.moveTo(1323,300)
+pyautogui.click()
+time.sleep(0.25)
+pyautogui.hotkey('shift','r')
+pyautogui.press(['u','n','n','e','r','.'])
+pyautogui.press(['i','n','s','t','a','n','c','e'])
+pyautogui.hotkey('shift','-')
+pyautogui.press(['.','g','a','m','e'])
+pyautogui.hotkey('shift','o')
+pyautogui.press(['v','e','r','=','f','u','n','c','t','i','o','n'])
+L=['9','0','[',']']
+for i in L:
+    pyautogui.hotkey('shift',i)
+pyautogui.press('enter')
+
+time.sleep(0.4)
+pyautogui.hotkey('shift','r')
+pyautogui.press(['u','n','n','e','r','.','i','n','s','t','a','n','c','e'])
+pyautogui.hotkey('shift','-')
+pyautogui.press(['.','s','e','t'])
+pyautogui.hotkey('shift','s')
+pyautogui.press(['p','e','e','d'])
+time.sleep(0.1)
+pyautogui.hotkey('shift','9')
+List=list(str(a))
+for i in List:
+    pyautogui.press(i)
+pyautogui.hotkey('shift','0')
+pyautogui.press('enter')
+time.sleep(0.1)
+pyautogui.moveTo(1898,146)
+pyautogui.click()
+pyautogui.moveTo(400,400)
+pyautogui.click()
+pyautogui.press(' ')
