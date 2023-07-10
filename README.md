@@ -1,2 +1,2 @@
-# Hacking-Dinosourgame
-I hacking Dinosourgame
+This is Python Program, and must progressed in 3.7.10
+And when useing this, if you click this file and it says how much did you multiply speed, that means the dinosouars's speed multiply ( if you input 2, dinosour run 2 time more fast.) And, there is 5 second and you have to go inside the dino game and make the big size you can do( not f11, click the button on the top, square between - and X ). And than, it need 1 second and you must not click or type anything and than it will be start. It didn't need anything like jump.
